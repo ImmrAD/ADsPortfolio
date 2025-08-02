@@ -23,24 +23,24 @@ const projects = [
 
 const RecentWork = () => {
   return (
-    <section id="work" className="min-h-screen py-16 px-6 sm:px-12 bg-gradient-to-r from-[#0d011f] via-[#120229] to-[#1c0133] text-white">
+    <section id="work" className="min-h-screen py-16 px-6 sm:px-12 bg-gradient-to-r from-red-800 via-black to-rose-950 text-white">
       <div className="max-w-6xl mx-auto">
         {/* Title */}
         <div className="text-center mb-14">
-          <h2 className="text-4xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-500">
+          <h2 className="text-4xl sm:text-5xl font-bold text-cyan-400">
             Recent Work
           </h2>
           <p className="text-gray-400 mt-2">A collection of projects I've worked on</p>
         </div>
 
         {/* Project Cards */}
-        <div className="space-y-12">
+        <div className="space-y-12 ">
           {projects.map((project, index) => (
             <div
               key={index}
               className={`flex flex-col lg:flex-row ${
                 index % 2 === 1 ? "lg:flex-row-reverse" : ""
-              } items-center gap-8 bg-white/5 rounded-xl p-6 backdrop-blur-md shadow-md`}
+              } items-center gap-8 bg-stone-400 rounded-xl p-6 backdrop-blur-md shadow-md`}
             >
               {/* Image */}
               <div className="w-full lg:w-1/2 overflow-hidden rounded-lg">

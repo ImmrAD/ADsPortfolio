@@ -4,17 +4,17 @@ export default function About() {
     <section id="about" className="relative bg-[#0f0f1a] text-white py-20 px-6 md:px-20 overflow-hidden">
       {/* Background grid pattern */}
       <div className="absolute inset-0 opacity-30 z-0 pointer-events-none">
-        <div className="w-full h-full bg-[length:55px_55px] bg-[rgba(114,114,114,0.3)]"
-             style={{
-               backgroundImage: `linear-gradient(0deg, transparent 24%, rgba(114,114,114,0.3) 25%, rgba(114,114,114,0.3) 26%, transparent 27%, transparent 74%, rgba(114,114,114,0.3) 75%, rgba(114,114,114,0.3) 76%, transparent 77%, transparent),
-                                linear-gradient(90deg, transparent 24%, rgba(114,114,114,0.3) 25%, rgba(114,114,114,0.3) 26%, transparent 27%, transparent 74%, rgba(114,114,114,0.3) 75%, rgba(114,114,114,0.3) 76%, transparent 77%, transparent)`
-             }}
-        ></div>
+        <div className="w-full h-full bg-[length:55px_55px] bg-[rgba(220,38,38,0.3)]"
+      style={{
+        backgroundImage: `linear-gradient(0deg, transparent 24%, rgba(220,38,38,0.3) 25%, rgba(220,38,38,0.3) 26%, transparent 27%, transparent 74%, rgba(220,38,38,0.3) 75%, rgba(220,38,38,0.3) 76%, transparent 77%, transparent),
+                          linear-gradient(90deg, transparent 24%, rgba(220,38,38,0.3) 25%, rgba(220,38,38,0.3) 26%, transparent 27%, transparent 74%, rgba(220,38,38,0.3) 75%, rgba(220,38,38,0.3) 76%, transparent 77%, transparent)`
+      }}
+ ></div>
       </div>
 
       {/* Content */}
       <div className="relative z-10 max-w-3xl mx-auto text-center">
-        <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 text-transparent bg-clip-text">
+        <h2 className="text-5xl md:text-6xl font-bold mb-6 text-cyan-400">
           About
         </h2>
         

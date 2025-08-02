@@ -33,7 +33,7 @@ const WavyText = ({ text, className = "" }) => {
   return (
     <h1
       ref={ref}
-      className={`text-5xl p-2 flex flex-wrap font-bold text-white ${className}`}
+      className={`text-5xl p-2 flex flex-wrap font-bold text-cyan-400 ${className}`}
     >
       <motion.span
         variants={container}

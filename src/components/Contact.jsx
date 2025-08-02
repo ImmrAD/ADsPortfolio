@@ -4,7 +4,7 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <section id="contact" className="min-h-screen px-6 sm:px-12 py-16 bg-gradient-to-r from-[#0d011f] via-[#120229] to-[#1c0133] text-white">
+    <section id="contact" className="min-h-screen px-6 sm:px-12 py-16 bg-gradient-to-r from-red-800 via-black to-rose-950 text-white">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-start gap-12">
         {/* Left Side */}
         <div className="lg:w-1/2">
@@ -18,7 +18,7 @@ const Contact = () => {
           </p>
 
           <div className="space-y-6 text-base">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center  gap-4">
               <div className="bg-gradient-to-tr from-purple-500 to-blue-500 p-3 rounded-full">
                 <FaPhoneAlt />
               </div>
@@ -61,7 +61,7 @@ const Contact = () => {
        <form
   action="https://formsubmit.co/ananddane1@gmail.com"
   method="POST"
-  className="lg:w-1/2 bg-white/5 backdrop-blur-md p-8 rounded-2xl shadow-xl space-y-6"
+  className="lg:w-1/2 bg-stone-400 backdrop-blur-md p-8 rounded-2xl shadow-xl space-y-6"
 >
   {/* Hidden fields */}
   <input type="hidden" name="_captcha" value="false" />

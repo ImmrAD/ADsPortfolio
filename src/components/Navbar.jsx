@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 export default function Navbar() {
   return (
-    <nav className="relative bg-gradient-to-r from-sky-900 via-purple-400 to-purple-900 w-full p-1">
+    <nav className="relative bg-gradient-to-r from-red-800 via-black to-rose-950 w-full p-1">
       <div className="relative flex justify-between items-center px-10 py-3 text-white font-semibold tracking-wide">
         {/* Left Items */}
         <div className="flex flex-1 justify-evenly">
