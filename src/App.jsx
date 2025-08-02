@@ -1,4 +1,5 @@
 import './App.css'
+import { Analytics } from "@vercel/analytics/next"
 import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <div>
+      <Analytics />
       <Navbar></Navbar>
       <Home></Home>
       <About></About>
