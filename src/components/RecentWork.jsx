@@ -3,7 +3,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
   {
-    label: "Client's Website",
+    label: "Client's ongoing project",
     title: "ASP Solar",
     description:
       "A web app for a solar panels selling and installation firm for showcasing their work and connecting with customers while sharing information about solar energy.",
@@ -18,6 +18,22 @@ const projects = [
     image: "/clipcraftt.png",
     link: "https://clipcraftt.com",
   },
+  {
+    label: "Personal Project",
+    title: "Demo Dash",
+    description:
+      "This is a demo dashboard showcasing various components and layouts that can be used in web applications.",
+    image: "/demodash.png",
+    link: "https://myfhotofactory.vercel.app/",
+  },
+  //{
+  //   label: "Personal Project",
+  //   title: "The Digital Diner",
+  //   description:
+  //     "A web app for showcasing some skills.",
+  //   image: "/clipcraftt.png",
+  //   link: "https://the-digital-diner.vercel.app/",
+  // },
 ];
 
 const RecentWork = () => {
